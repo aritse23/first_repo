@@ -1,0 +1,112 @@
+/*Social Channels
+-------------------------*/
+
+.social-channels{
+	list-style: none;
+	padding: 0;
+}
+
+.social-channels li{
+	margin-right:.5em;
+	border-radius: 3px;
+	float: left;
+	transition: ;
+}
+
+.social-channels li a {
+	display:block;
+}
+
+.facebook a {
+	width: 33px;
+	height: 33px;
+	background: url(images/sprite.png);
+}
+
+.facebook a:hover{
+	background: url(images/sprite.png);
+	background-position: 0 33px;
+}
+
+.youtube a {
+	width: 33px;
+	height: 33px;
+	background: url(images/sprite.png);
+	background-position: -33px 0;
+}
+
+.youtube a:hover{
+	background: url(images/sprite.png);
+	background-position: -33px 33px;
+}
+
+.flickr a {
+	width: 33px;
+	height: 33px;
+	background: url(images/sprite.png);
+	background-position: -66px 0;
+}
+
+.flickr a:hover{
+	background: url(images/sprite.png);
+	background-position: -66px 33px;
+}
+
+.github a {
+	width: 33px;
+	height: 33px;
+	background: url(images/sprite.png);
+	background-position: -99px 0;
+}
+
+.github a:hover{
+	background: url(images/sprite.png);
+	background-position: -99px 33px;
+}
+.googleplus a {
+	width: 33px;
+	height: 33px;
+	background: url(images/sprite.png);
+	background-position: -132px 0;
+}
+
+.googleplus a:hover{
+	background: url(images/sprite.png);
+	background-position: -132px 33px;
+}
+
+.linkedin a {
+	width: 33px;
+	height: 33px;
+	background: url(images/sprite.png);
+	background-position: -165px 0;
+}
+
+.linkedin a:hover{
+	background: url(images/sprite.png);
+	background-position: -165px 33px;
+}
+
+.pinterest a {
+	width: 33px;
+	height: 33px;
+	background: url(images/sprite.png);
+	background-position: -198px 0;
+}
+
+.pinterest a:hover{
+	background: url(images/sprite.png);
+	background-position: -198px 33px;
+}
+
+.twitter a {
+	width: 33px;
+	height: 33px;
+	background: url(images/sprite.png);
+	background-position: -231px 0;
+}
+
+.twitter a:hover{
+	background: url(images/sprite.png);
+	background-position: -231px 33px;
+}
