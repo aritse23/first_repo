@@ -1,0 +1,266 @@
+
+
+
+/*make icons bounce
+-----------------------------------*/
+.social_channels li:hover {
+	margin-top: -6px;
+}
+
+a,
+.fade,
+input,
+textarea { 
+	-webkit-transition: all .2s linear; 
+	-o-transition: all .2s linear; 
+	-moz-transition: all .2s linear; 
+	transition: all .2s linear; 
+}
+
+
+
+/*Screensize adaptable CSS
+------------------------------------*/
+.wrapper,
+header,
+.container,
+footer {
+	margin:0 auto;
+	width:88%;
+	max-width: 960px;
+}
+
+
+/*Flexbox CSS
+------------------------------------*/
+
+
+.items {
+	display: flex;
+	flex-direction: column;
+}
+
+
+/*Media Queries CSS
+------------------------------------*/
+
+@media screen and (min-width: 960px){
+	
+	/*Media Queries CSS
+------------------------------------*/
+
+@media screen and (min-width: 960px){
+	
+	.items {
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	} /*Media Query to Flex header items into rows when screen size is larger than 960px*/
+
+
+/*Clearfix CSS
+------------------------------------*/
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height: 0;
+	clear:both;
+	visibility:hidden;
+}
+
+
+
+
+@media print{
+
+
+	/**
+	 * Remove unnecessary global styling from printed media.
+	 *
+	 * 1. Black prints faster.
+	 */
+
+	* {
+	    color: black !important; /* 1 */
+	    text-shadow: none !important;
+	    background: transparent !important;
+	}
+
+	/**
+	 * Use a print-friendly font and size.
+	 */
+
+	body {
+	    font-family: "Helvetica Neue", sans-serif;
+	    font-size: 8pt;
+	    line-height: 1.5;
+	    margin: 0.5cm;
+	    padding: 2em 5em;
+	}
+
+	/**
+	 * Visually separate header from body.
+	 */
+
+	header {
+	    border-bottom: solid 1pt black;
+	}
+
+	/**
+	 * Visually separate footer from body.
+	 */
+
+	footer {
+	    margin-top: 12pt;
+	    border-top: solid 1pt black;
+	}
+
+	/**
+	 * Hide unnecessary content from print.
+	 */
+
+	nav {
+	    display: none;
+	}
+
+	/**
+	 * Make sure links are not underlined.
+	 */
+
+	a {
+	    text-decoration: none;
+	}
+
+	/**
+	 *  Show long-form for abbreviations in print.
+	 */
+
+	abbr[title] {
+	    &:after {
+	        content: " (" attr(title) ")";
+	    }
+	}
+
+	/**
+	 *  Harmonise size, style and vertical margin of headings.
+	 */
+
+	h1 {
+	    font-size: 32pt;
+	    font-weight: normal;
+	}
+
+	h2 {
+	    font-size: 24pt;
+	    line-height: 28pt;
+	    page-break-after: avoid;
+	    orphans: 2;
+	    widows: 2;
+	    margin: 9pt 0;
+	}
+
+	h3 {
+	    font-size: 18pt;
+	    line-height: 22pt;
+	    page-break-after: avoid;
+	    orphans: 2;
+	    widows: 2;
+	    margin: 12pt 0;
+	}
+
+	h4 {
+	    font-size: 14pt;
+	    line-height: 18pt;
+	    page-break-after: avoid;
+	    orphans: 2;
+	    widows: 2;
+	    margin: 11pt 0;
+	}
+
+	h5 {
+	    font-size: 12pt;
+	    line-height: 16pt;
+	    page-break-after: avoid;
+	    orphans: 2;
+	    widows: 2;
+	    margin: 10pt 0;
+	}
+
+	h6 {
+	    font-size: 10pt;
+	    line-height: 14pt;
+	    page-break-after: avoid;
+	    orphans: 2;
+	    widows: 2;
+	    margin: 9pt 0;
+	}
+
+	/**
+	 * Prevent widows (single final paragraph line on next page) and orphans (single
+	 * first paragraph line on previous page).
+	 */
+
+	p {
+	    orphans: 2;
+	    widows: 2;
+	}
+
+	/**
+	 * Simple blockquote styling.
+	 *
+	 * 1. Avoid blockquotes breaking across mutiple pages.
+	 */
+
+	blockquote {
+	    font-size: 16pt;
+	    border-left: 3pt solid black;
+	    padding: 0 0 0 8pt;
+	    page-break-inside: avoid; /* 1 */
+	}
+
+	/**
+	 * 1. Ensure images are maximum possible width.
+	 * 2. Avoid images breaking across mutiple pages.
+	 */
+
+	img {
+	    max-width: 100% !important; /* 1 */
+	    page-break-inside: avoid; /* 2 */
+	}
+
+	/**
+	 * Image alignment
+	 *
+	 * Example HTML:
+	 *
+	 * <img class="align-left">
+	 * <img class="align-right">
+	 * <img class="align-center">
+	 */
+
+	.align-left {
+	        float: left;
+	        margin: 1em 1em 1em 0;
+	    }
+
+	.align-right {
+	        float: right;
+	        margin: 1em 0 1em 1em;
+	    }
+
+	.align-center {
+	        display: block;
+	        margin: 1em auto;
+	    }
+
+	/**
+	 * Simple bullet styling for `ul` unordered lists.
+	 */
+
+	ul {
+	    list-style: square;
+	    margin: 0 0 8pt 1.8em;
+	}
+
+}
