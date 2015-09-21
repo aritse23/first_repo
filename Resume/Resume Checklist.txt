@@ -1,0 +1,16 @@
+Resume Checklist:
+
+Media Queries
+Lists
+Divs
+anchored links with scroll effects
+Headers/footers
+Images
+opacity background images
+Custom bullets
+Font
+Mobile First
+Borders
+hover effects
+buttons
+Sprite Links

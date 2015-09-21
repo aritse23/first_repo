@@ -1,0 +1,52 @@
+header,footer{
+	background-color: grey;
+
+}
+
+p{
+	color:#fff;
+	padding: 20px;
+}
+
+.wrapper{
+	background-color: blue;
+}
+
+.column1{
+	background: purple;
+	flex-grow: 1;
+}
+.column2{
+	background: red;
+	flex-grow: 1;
+	width: 10px;
+	order: -1;
+
+}
+.column3{
+	background: green;
+	flex-grow: 1;
+}
+
+/*Flexbox starts here
+-----------------------------------*/
+
+.layout{
+	display: flex;
+	flex-direction: column;
+	height: 500px;
+}
+
+p{
+	padding: 20px;
+}
+
+.items {
+	display: flex;
+	flex-grow: 1;
+	background: #3498bd;
+}
+
+@media screen and (max-width: 600px;){
+
+}

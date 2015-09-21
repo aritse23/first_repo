@@ -1,0 +1,37 @@
+.layout {
+	display: flex;
+	flex-direction: column;
+	height: 500px;
+}
+
+header, footer {
+	background: #37365e;
+}
+
+p {
+	color: #fff;
+	padding: 20px;
+}
+
+.items {
+	display: flex;
+	flex-grow: 1;
+	background: #1b1b2f;
+}
+
+.col-1 {
+	background: #87869e;
+	flex-grow: 1;
+}
+
+.col-2 {
+	background: #c3c2ce;
+	width: 160px;
+	order: -1;
+}
+
+.col-3 {
+	background: #1b1b2f;
+	width: 160px;
+}
+

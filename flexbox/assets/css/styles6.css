@@ -1,0 +1,55 @@
+/*Layout
+------------------------------------*/
+html, body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.wrapper {
+	margin: 0 auto;
+}
+
+
+.items{
+	background: #08A3BA;
+}
+.picture{
+	width: 100%;
+}
+img {
+   
+	
+}
+.layout{
+
+}
+.name{
+	background: #11AEA1;
+}
+.name,
+.butt1,
+.butt2,
+.butt3{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+/*Screensize adaptable CSS
+------------------------------------*/
+
+
+
+
+/*Button hover effects
+-------------------------------------*/
+.butt1:hover,
+.butt2:hover,
+.butt3:hover{
+	background: #6FCDDC;
+	transition: background 1s ease-in-out;
+}
+
+/*Media Queries
+------------------------------------*/
+@media screen and (min-width: ){
+
+}

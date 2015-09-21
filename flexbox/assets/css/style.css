@@ -1,0 +1,43 @@
+.layout{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  }
+header,footer {
+  background: #334960;
+}
+p{
+  color:#fff;
+  padding: 20px;
+}
+.items{
+  display: flex;
+  flex-grow: 1;
+  background: #3498bd;
+}
+.col-1 {
+  background: #F17c72;
+  flex-grow: 1;
+}
+.col-2 {
+  background: #32AC97;
+  width: 160px;
+  order: -1;
+}
+.col-3 {
+  background: #7F4C76;
+  width: 160px;
+}
+
+@media screen and (max-width: 600px) {
+  .items {
+    flex-direction: column;
+  }
+  .col-2,.col-3 {
+    width: auto;/* removes the fixed width for col-3 and col-2 */
+  }
+}
+
+
+
+}
